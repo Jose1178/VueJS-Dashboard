@@ -1,6 +1,5 @@
 <template>
     <nav>
-  
       <v-toolbar flat app>
         <v-toolbar-side-icon @click="drawer = !drawer" class="grey--text"></v-toolbar-side-icon>
         <v-toolbar-title class="text-uppercase grey--text">
@@ -13,7 +12,6 @@
           <v-icon right>exit_to_app</v-icon>
         </v-btn>
       </v-toolbar>
-  
       <v-navigation-drawer app v-model="drawer" class="primary">
         <v-layout column align-center>
           <v-flex class="mt-5">
@@ -34,10 +32,8 @@
           </v-list-tile>
         </v-list>
       </v-navigation-drawer>
-  
     </nav>
   </template>
-  
   <script>
   export default {
     data() {
